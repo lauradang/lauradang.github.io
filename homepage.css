@@ -1,11 +1,11 @@
 html {
   font-size: 14px;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
-}
+} */
 
 .container {
   max-width: 960px;
@@ -30,8 +30,4 @@ html {
 
 .name-header span { 
   font-size: 500%;
-}
-
-.card-deck .card {
-  min-width: 220px;
 }
