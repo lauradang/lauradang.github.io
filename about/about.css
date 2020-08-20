@@ -1,0 +1,44 @@
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+
+  .scroll-container {
+    scroll-padding: 5110000px 0 0 0px;
+  }
+  
+  .image {
+    position: absolute;
+    display: align;
+    left: 10%;
+    width: 40%; 
+    padding-bottom: 3%;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+
+  .home-header {
+    font-family: monospace;
+  }
+  
+  .about-header {
+    font-size: 90%;
+    font-family: monospace;
+  }
+
+  .card-deck .card {
+    min-width: 220px;
+  }
+  

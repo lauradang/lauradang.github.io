@@ -1,0 +1,26 @@
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 960px;
+    font-family: monospace;
+  }
+  
+  .home-header {
+    font-family: monospace;
+  }
+  
+  .art-image {
+      width: 100%;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  
