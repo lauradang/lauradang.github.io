@@ -24,3 +24,39 @@ html {
     min-width: 220px;
   }
   
+  .module-link:hover {
+    background: #e6e6e6;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+     -ms-transition: all 1s ease;
+      -o-transition: all 1s ease;
+         transition: all 1s ease;
+}
+
+.module-link label{
+ text-align:center;
+ font-variant: small-caps;
+   left:0;
+    right:0;
+    margin:auto;
+    display: block;
+    
+}
+
+.module-link a{
+ text-decoration:none;
+ color:#000;
+ display:inline;
+}
+
+.module-link a:after{
+
+ content: '';
+ display: block;
+ border-bottom: 2px solid #000;
+ width: 0;
+ -webkit-transition: 0.5s ease;
+         transition: 0.5s ease;
+}
+
+.module-link:hover a:after { width: 100%; }
