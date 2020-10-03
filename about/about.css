@@ -12,48 +12,69 @@ html, body {
     overflow-x: hidden;
 }
 
-  .container {
-    /* max-width: 960px; */
-  }
+.container {
+  /* max-width: 960px; */
+}
 
-  .scroll-container {
-    scroll-padding: 5110000px 0 0 0px;
-  }
-  
-  .image {
-    position: absolute;
-    display: align;
-    left: 10%;
-    width: 40%; 
-    padding-bottom: 3%;
-  }
+.scroll-container {
+  scroll-padding: 5110000px 0 0 0px;
+}
 
-  .column {
-    float: left;
-    width: 50%;
-    padding: 20px;
-  }
+.image {
+  position: absolute;
+  display: align;
+  left: 10%;
+  width: 40%; 
+  padding-bottom: 3%;
+}
 
-  .home-header {
-    font-family: monospace;
-  }
-  
-  .about-header {
-    font-size: 90%;
-    font-family: monospace;
-  }
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
 
-  .card-deck .card {
-    min-width: 220px;
-  }
-  
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
-  .block {
-    display:inline-block;
-  }
+.home-header {
+  font-family: monospace;
+}
+
+.about-header {
+  font-size: 90%;
+  font-family: monospace;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.block {
+  display:inline-block;
+}
+
+.block2 {
+  display:inline-block;
+}
+
+.bolding {
+  /* font-weight: bold;  */
+  color: teal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover 
+{
+   color:#00A0C6; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
