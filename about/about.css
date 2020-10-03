@@ -7,8 +7,13 @@ html {
     }
   }
   
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
   .container {
-    max-width: 960px;
+    /* max-width: 960px; */
   }
 
   .scroll-container {
@@ -42,3 +47,13 @@ html {
     min-width: 220px;
   }
   
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .block {
+    display:inline-block;
+  }
