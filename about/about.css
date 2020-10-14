@@ -78,3 +78,10 @@ a:hover
    text-decoration:none; 
    cursor:pointer;  
 }
+
+.iconanimate:hover
+{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}

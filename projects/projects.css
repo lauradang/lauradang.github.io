@@ -78,9 +78,20 @@ a {
   text-decoration: none;
 }
 
-a:hover 
-{
+a:hover {
    color:#00A0C6; 
    text-decoration:none; 
    cursor:pointer;  
+}
+
+.proj {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.proj:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  opacity: 1;
 }
